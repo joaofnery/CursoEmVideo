@@ -2,12 +2,18 @@
 # Crie um programa que faça o computador jogar Jokenpô com você.
 
 from random import choice
+from time import sleep
 print('x-'* 30)
 print('Vamos Jogar Jokenpo?!')
 print('x-'* 30)
 mov = str(input('Digite Pedra, Papel ou Tesoura: ')).strip().lower()
 lista = ['pedra','papel','tesoura']
 movpc = choice(lista)
+print('JO')
+sleep(1)
+print('KEN')
+sleep(1)
+print('PO!!!')
 
 if mov == movpc:
     print('Você: {} x PC: {}'.format(mov, movpc))
