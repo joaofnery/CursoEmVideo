@@ -1,3 +1,8 @@
+#Exercício Python 56:
+# Desenvolva um programa que leia o nome, idade e sexo de 4 pessoas.
+# No final do programa, mostre: a média de idade do grupo,
+# qual é o nome do homem mais velho e quantas mulheres têm menos de 20 anos.
+
 listanome = []
 listaidade = []
 listasexo = []
@@ -5,6 +10,7 @@ somaidade = 0
 idademaisvelho = 0
 contmulher = 0
 for c in range(1, 5):
+    print('----- [{}] PESSOA -----'.format(c))
     nome = str(input('Qual o nome: ')).strip().capitalize()
     listanome.append(nome)
     idade = int(input('Qual a idade de {}: '.format(nome)))
