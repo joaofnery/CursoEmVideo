@@ -19,4 +19,5 @@ while c == "s":
 
 media = tnum / cont
 print('Você digitou {} números e a média deles é {}.'.format(cont, media))
+print('Maior valor = {} / Menor valor = {}'.format(maior, menor))
 
